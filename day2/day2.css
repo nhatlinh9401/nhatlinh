@@ -3,17 +3,19 @@
     margin: 0;
     box-sizing: border-box;
 }
+li {
+    list-style: none;
+}
 header{
     width: 80%;
-    height: 80px;
     margin: 0 auto;
-    background-color: darkblue;
-    border-radius: 5px;
+    background-color: rgb(19, 17, 17);
+    border-radius: 10px;
     margin-top: 50px;
-
-    .nev{
-        display: flex;
-        list-style: none;
-        color: white;
+    color: white;
+    display: flex;
+    padding: 15px;
+    li {
+        margin-left: 15px;
     }
 }
