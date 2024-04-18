@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2017/02/15/10/39/salad-2068220_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     form {
+        background-color: white;
+        width: 60%;
+        height: 80%;
+        padding: 20px 80px;
+        border-radius: 20px;
+        h1 {
+            text-align: center;
+        }
+        textarea {
+            width: 100%;
+            padding: 10px;
+        }
+        .link {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 40px;
+            button {
+                padding: 10px 30px;
+                border-radius: 10px;
+                background-color: darkgreen;
+                border: none;
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 15px;
+            margin-top: 10px;
+          
+            .form-group {
+              
+                input {
+                    width:100%;
+                    padding: 5px;
+                }
+                select {
+                    width:100%;
+                    padding: 5px;
+                }
+                input[type="checkbox"] {
+                    width: auto;
+                    margin-left: 10px;
+                }
+                input[type="radio"] {
+                    width: auto;
+                    margin-left: 10px;
+                }
+                input[type="file"] {
+                    width: auto;
+                    margin-left: 10px;
+                }
+            }
+        }
+     }
+}

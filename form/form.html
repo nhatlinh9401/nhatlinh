@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <form action="https://fullstack.edu.vn/">
+        <h1>Đăng Ký</h1>
+        <div class="container">
+           <div class="form-group">
+              <label for="">Username:</label> <br>
+              <input type="text" placeholder="Enter your username...">
+           </div> 
+           <div class="form-group">
+            <label for="">Phone number:</label> <br>
+            <input type="number" placeholder="Enter your phone number...">
+         </div>
+         <div class="form-group">
+            <label for="">Email:</label> <br>
+            <input type="email" placeholder="Enter your email...">
+         </div>
+         <div class="form-group">
+            <label for="">Password:</label> <br>
+            <input type="password" placeholder="Enter your password...">
+         </div> 
+         <div class="form-group">
+            <label for="">BirthDay:</label> <br>
+            <input type="date" placeholder="Enter your birthday...">
+         </div> 
+         <div class="form-group">
+            <label for="">Quốc gia:</label> <br>
+            <select >
+                <option disabled selected>Chọn quốc gia của bạn</option>
+                <option >VietNam</option>
+                <option >ThanLan</option>
+                <option >Japan</option>
+                <option >USA</option>
+            </select>
+         </div> 
+         <div class="form-group">
+            <label for="">Sở thích:</label>
+            <input type="checkbox">
+            <label for="">Play Game</label>
+            <input type="checkbox">
+            <label for="">Football</label>
+            <input type="checkbox">
+            <label for="">Reading</label>       
+         </div> 
+         <div class="form-group">
+            <label for="">Giới tính:</label>
+            <input type="radio" name="gander">
+            <label for="">Nam</label>
+            <input type="radio" name="gander">
+            <label for="">Nữ</label>
+            <input type="radio" name="gander">
+            <label for="">Khác</label>       
+         </div> 
+         <div class="form-group">
+            <label for="">Avatar:</label>
+            <input type="file">
+         </div>   
+        </div>
+        <label for="">Nội dung:</label> <br>
+        <textarea  rows="8"></textarea>
+        <div class="link">
+             <button><a href="">Send</a></button>
+             <button type="submit"><a href="">Submit</a></button>
+             <button type="reset"><a href="">Reset</a></button>
+        </div>
+    </form>
+</body>
+</html>
